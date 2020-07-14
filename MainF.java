@@ -11,9 +11,9 @@ import java.util.Scanner;
 
 public class MainF {
 	public static void main(String[] args) throws IOException {
-		String fileName;
-		String pathtec;
-		int c;
+		String fileName;// graph edge list file 
+		String pathtec;// index files folder path
+		int c;// c=1 will create index for graph, otherwise it will upload index  from files in given folder pathtec
 		if (args.length == 3) {
 			c = Integer.parseInt(args[0]);
 			fileName = args[1];
